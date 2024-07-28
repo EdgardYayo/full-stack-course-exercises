@@ -1,0 +1,29 @@
+.message {
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: green;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    padding-block-end: 0.5rem;
+    width: fit-content;
+    margin-block: 0.5rem;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 1px gray;
+    box-shadow: 1px 2px 1px 1px gray;
+}
+
+.error {
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: red;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    padding-block-end: 0.5rem;
+    width: fit-content;
+    margin-block: 0.5rem;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 1px gray;
+    box-shadow: 1px 2px 1px 1px gray;
+}
