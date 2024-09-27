@@ -1,0 +1,10 @@
+.messageInfo {
+    border: orange solid 4px;
+    padding: 1rem;
+    border-radius: 10px;
+    letter-spacing: 0.2ch;
+    text-transform: capitalize;
+    background-color: #eee;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

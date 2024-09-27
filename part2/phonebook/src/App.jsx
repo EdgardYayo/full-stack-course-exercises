@@ -37,7 +37,7 @@ const App = () => {
 
             setTimeout(() => setMessage(null), 3000);
           }).catch((error) => {
-            setErrorMessage("Information of " + newName + " was already deleted");
+            setErrorMessage(error.response.data.error);
             setTimeout(() => setErrorMessage(null), 3000);
           })
           return;
@@ -50,10 +50,13 @@ const App = () => {
       .then((personPosted) => {
         setMessage(newName + " was added succesfully")
         setPersons(persons.concat(personPosted))
+        setNewName('');
+        setNewNumber('');
+        setTimeout(() => setMessage(null), 3000);
+      }).catch((error) => {
+        setErrorMessage(error.response.data.error);
+        setTimeout(() => setErrorMessage(null), 3000);
       });
-    setNewName('');
-    setNewNumber('');
-    setTimeout(() => setMessage(null), 3000);
   }
 
   const handleDelete = (id) => {
