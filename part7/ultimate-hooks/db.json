@@ -1,0 +1,46 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "content": "custom-hooks are awesome!"
+    },
+    {
+      "id": 2,
+      "content": "best feature ever <3"
+    },
+    {
+      "content": "new note",
+      "id": 3
+    },
+    {
+      "content": "nueva nota",
+      "id": 4
+    },
+    {
+      "content": "sasasasa",
+      "id": 5
+    }
+  ],
+  "persons": [
+    {
+      "id": 1,
+      "name": "mluukkai",
+      "number": "040-5483923"
+    },
+    {
+      "id": 2,
+      "name": "hellas",
+      "number": "012-123123"
+    },
+    {
+      "name": "Edgard ",
+      "number": "098-22-3-3",
+      "id": 3
+    },
+    {
+      "name": "asasas",
+      "number": "22323-2323",
+      "id": 4
+    }
+  ]
+}
